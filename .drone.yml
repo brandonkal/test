@@ -1,0 +1,10 @@
+---
+kind: pipeline
+type: docker
+name: build
+
+steps:
+  - name: hello
+    image: alpine
+	commands:
+	- echo "This test should pass!"
