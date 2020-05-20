@@ -6,5 +6,5 @@ name: build
 steps:
   - name: hello
     image: alpine
-	commands:
-	- echo "This test should pass!"
+    commands:
+    - echo "This test should pass!"
